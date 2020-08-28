@@ -1,0 +1,26 @@
+{
+  "name": "spa-app",
+  "version": "1.0.0",
+  "description": "Creating Single Page Application using Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w src/static/scss/ -o src/static/css/",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravo007/spa-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravo007/spa-app/issues"
+  },
+  "homepage": "https://github.com/ravo007/spa-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^4.14.1"
+  }
+}
